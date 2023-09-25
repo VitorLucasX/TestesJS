@@ -1,7 +1,7 @@
 
 body {
     width: 100%;
-    background: url(pexels-pixabay-147411.jpg);
+    background-image: url(imagens/pexels-pixabay-147411.jpg)
 }
 
 h1 {
@@ -32,4 +32,10 @@ footer {
     font-size: 20px;
     padding: 2em;
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 60%;
+    }
 }
